@@ -1,26 +1,42 @@
 .encabezado{
-    margin-left: 45%;
+    
+    text-align:center;  
 }
 .cuerpo{
-	margin-top: 5%;
-	margin-right: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
     margin-left: 15%;
 }
-#datos_personales{
-	
-}
+
+
 .subtitulos {
-	color:#00b0f0;
+    color:#00b0f0;
 }
-#fotografia{
-	margin-top: -15%;
-	margin-right: 20%;
-	margin-left: 55%;
-	float: right !important;
+
+#datos_personales #texto{
+    display: inline-block;
+    vertical-align: top;
+
+
 }
+
+/*#texto img {
+    position:relative;
+    margin-left: 55%;
+    transition: opacity 1.5s ease-in-out;
+}*/
+
+#texto img.top:hover {
+    opacity: 0;
+}
+
 p{
-	color:#4e4d4b;
-	text-align : justify;
-	margin-right: 20%;
-    
+    color:#4e4d4b;
+    text-align : justify;
+    margin-right: 20%;
+}
+
+footer p{
+     margin-left: 15%;
+     text-align:center;  
 }
