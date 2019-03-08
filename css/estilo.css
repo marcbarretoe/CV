@@ -1,0 +1,26 @@
+.encabezado{
+    margin-left: 45%;
+}
+.cuerpo{
+	margin-top: 5%;
+	margin-right: 10%;
+    margin-left: 15%;
+}
+#datos_personales{
+	
+}
+.subtitulos {
+	color:#00b0f0;
+}
+#fotografia{
+	margin-top: -15%;
+	margin-right: 20%;
+	margin-left: 55%;
+	float: right !important;
+}
+p{
+	color:#4e4d4b;
+	text-align : justify;
+	margin-right: 20%;
+    
+}
