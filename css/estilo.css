@@ -13,22 +13,24 @@
     color:#00b0f0;
 }
 
-#datos_personales #texto{
+#datos_personales .texto{
     display: inline-block;
     vertical-align: top;
 
 
 }
 
-/*#texto img {
+.texto img {
     position:relative;
-    margin-left: 55%;
+    padding-top: 15%;
+    padding-left:50%;
+    margin-left: center;
     transition: opacity 1.5s ease-in-out;
-}*/
-
-#texto img.top:hover {
-    opacity: 0;
 }
+
+/*.texto img.top:hover {
+    opacity: 0;
+}*/
 
 p{
     color:#4e4d4b;
